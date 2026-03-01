@@ -1,0 +1,145 @@
+/* minimalistic base reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background: #f8f8f8;
+  color: #333;
+  line-height: 1.5;
+}
+
+.App-header {
+  padding: 16px 24px;
+  background: #fff;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.App-header h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.App-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  max-width: 1200px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+.Rust-Loot-List,
+.Raidable-Bases-Loot-Table {
+  flex: 1 1 45%;
+  max-width: 500px;
+  padding: 16px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.Rust-Loot-List-Search {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* generic card container style */
+.arrayCard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px;
+  background: #fafafa;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+}
+
+/* ensure inner wrapper stacks inputs/labels */
+.arrayCard > div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* all number inputs inside cards stretch full width */
+.arrayCard input[type="number"],
+.arrayCard input[type="percentage"] {
+  width: 100%;
+  padding: 6px 8px;
+  font-size: 0.95rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button,
+input {
+  font-size: 1rem;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #f0f0f0;
+}
+
+/* Raidable Bases Loot Table */
+.Raidable-Bases-Loot-Table {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 24px;
+  padding: 16px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.Raidable-Bases-Loot-Table h2 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.Raidable-Bases-Loot-Table-Items {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.Raidable-Bases-Loot-Item-Card {
+  width: 100%;
+  padding: 12px;
+  background: #fafafa;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* utility classes */
+.hidden {
+  display: none;
+}

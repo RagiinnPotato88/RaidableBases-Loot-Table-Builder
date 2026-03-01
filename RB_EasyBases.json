@@ -1,0 +1,322 @@
+[
+  {
+    "shortname": "stones",
+    "name": null,
+    "text": null,
+    "amount": 10000,
+    "skin": 0,
+    "amountMin": 5000,
+    "probability": 1.0,
+    "stacksize": -1
+  },
+  {
+    "shortname": "sulfur",
+    "name": null,
+    "text": null,
+    "amount": 5000,
+    "skin": 0,
+    "amountMin": 1000,
+    "probability": 1.0,
+    "stacksize": -1
+  },
+  {
+    "shortname": "metal.fragments",
+    "name": null,
+    "text": null,
+    "amount": 7500,
+    "skin": 0,
+    "amountMin": 2500,
+    "probability": 1.0,
+    "stacksize": -1
+  },
+  {
+    "shortname": "charcoal",
+    "name": null,
+    "text": null,
+    "amount": 5000,
+    "skin": 0,
+    "amountMin": 1000,
+    "probability": 1.0,
+    "stacksize": -1
+  },
+  {
+    "shortname": "gunpowder",
+    "name": null,
+    "text": null,
+    "amount": 2000,
+    "skin": 0,
+    "amountMin": 250,
+    "probability": 1.0,
+    "stacksize": -1
+  },
+  {
+    "shortname": "scrap",
+    "name": null,
+    "text": null,
+    "amount": 300,
+    "skin": 0,
+    "amountMin": 100,
+    "probability": 1.0,
+    "stacksize": -1
+  },
+  {
+    "shortname": "basicblueprintfragment",
+    "name": null,
+    "text": null,
+    "amount": 1,
+    "skin": 0,
+    "amountMin": 1,
+    "probability": 0.5,
+    "stacksize": -1
+  },
+  {
+    "shortname": "electric.battery.rechargable.large",
+    "name": null,
+    "text": null,
+    "amount": 1,
+    "skin": 0,
+    "amountMin": 1,
+    "probability": 0.5,
+    "stacksize": -1
+  },
+  {
+    "shortname": "coffin.storage",
+    "name": null,
+    "text": null,
+    "amount": 1,
+    "skin": 0,
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
+  },
+  {
+    "shortname": "electric.solarpanel.large",
+    "name": null,
+    "text": null,
+    "amount": 2,
+    "skin": 0,
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
+  },
+  {
+    "shortname": "keycard_green",
+    "name": null,
+    "text": null,
+    "amount": 1,
+    "skin": 0,
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
+  },
+  {
+    "shortname": "jackhammer",
+    "name": null,
+    "text": null,
+    "amount": 1,
+    "skin": 0,
+    "amountMin": 1,
+    "probability": 0.5,
+    "stacksize": -1
+  },
+  {
+    "shortname": "keycard_blue",
+    "name": null,
+    "text": null,
+    "amount": 1,
+    "skin": 0,
+    "amountMin": 1,
+    "probability": 0.5,
+    "stacksize": -1
+  },
+  {
+    "shortname": "keycard_red",
+    "name": null,
+    "text": null,
+    "amount": 1,
+    "skin": 0,
+    "amountMin": 1,
+    "probability": 0.25,
+    "stacksize": -1
+  },
+  {
+    "shortname": "cloth",
+    "name": null,
+    "text": null,
+    "amount": 500,
+    "skin": 0,
+    "amountMin": 50,
+    "probability": 1.0,
+    "stacksize": -1
+  },
+  {
+    "shortname": "leather",
+    "name": null,
+    "text": null,
+    "amount": 500,
+    "skin": 0,
+    "amountMin": 50,
+    "probability": 1.0,
+    "stacksize": -1
+  },
+  {
+    "shortname": "smg.2",
+    "name": null,
+    "text": null,
+    "amount": 1,
+    "skin": 0,
+    "amountMin": 1,
+    "probability": 0.5,
+    "stacksize": -1
+  },
+  {
+    "shortname": "smgbody",
+    "name": null,
+    "text": null,
+    "amount": 1,
+    "skin": 0,
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
+  },
+  {
+    "shortname": "semibody",
+    "name": null,
+    "text": null,
+    "amount": 1,
+    "skin": 0,
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
+  },
+  {
+    "shortname": "sheetmetal",
+    "name": null,
+    "text": null,
+    "amount": 10,
+    "skin": 0,
+    "amountMin": 3,
+    "probability": 1.0,
+    "stacksize": -1
+  },
+  {
+    "shortname": "wall.frame.garagedoor",
+    "name": null,
+    "text": null,
+    "amount": 1,
+    "skin": 0,
+    "amountMin": 1,
+    "probability": 0.5,
+    "stacksize": -1
+  },
+  {
+    "shortname": "autoturret",
+    "name": null,
+    "text": null,
+    "amount": 1,
+    "skin": 0,
+    "amountMin": 1,
+    "probability": 0.5,
+    "stacksize": -1
+  },
+  {
+    "shortname": "grenade.beancan",
+    "name": null,
+    "text": null,
+    "amount": 5,
+    "skin": 0,
+    "amountMin": 2,
+    "probability": 0.5,
+    "stacksize": -1
+  },
+  {
+    "shortname": "explosive.satchel",
+    "name": null,
+    "text": null,
+    "amount": 5,
+    "skin": 0,
+    "amountMin": 2,
+    "probability": 0.5,
+    "stacksize": -1
+  },
+  {
+    "shortname": "gears",
+    "name": null,
+    "text": null,
+    "amount": 10,
+    "skin": 0,
+    "amountMin": 3,
+    "probability": 1.0,
+    "stacksize": -1
+  },
+  {
+    "shortname": "metalspring",
+    "name": null,
+    "text": null,
+    "amount": 10,
+    "skin": 0,
+    "amountMin": 3,
+    "probability": 1.0,
+    "stacksize": -1
+  },
+  {
+    "shortname": "metalblade",
+    "name": null,
+    "text": null,
+    "amount": 10,
+    "skin": 0,
+    "amountMin": 3,
+    "probability": 1.0,
+    "stacksize": -1
+  },
+  {
+    "shortname": "sewingkit",
+    "name": null,
+    "text": null,
+    "amount": 10,
+    "skin": 0,
+    "amountMin": 3,
+    "probability": 1.0,
+    "stacksize": -1
+  },
+  {
+    "shortname": "roadsigns",
+    "name": null,
+    "text": null,
+    "amount": 10,
+    "skin": 0,
+    "amountMin": 3,
+    "probability": 1.0,
+    "stacksize": -1
+  },
+  {
+    "shortname": "techparts",
+    "name": null,
+    "text": null,
+    "amount": 1,
+    "skin": 0,
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
+  },
+  {
+    "shortname": "metalpipe",
+    "name": null,
+    "text": null,
+    "amount": 10,
+    "skin": 0,
+    "amountMin": 3,
+    "probability": 1.0,
+    "stacksize": -1
+  },
+  {
+    "shortname": "smg.thompson",
+    "name": null,
+    "text": null,
+    "amount": 1,
+    "skin": 0,
+    "amountMin": 1,
+    "probability": 0.5,
+    "stacksize": -1
+  }
+]
