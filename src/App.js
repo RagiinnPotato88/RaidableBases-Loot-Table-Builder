@@ -33,12 +33,33 @@ function App() {
   }
 
   const exportLootTable = () => {
-    const jsonString = `data:text/json;chatset=utf-8,${encodeURIComponent(
-      JSON.stringify(raidableBasesLootTable)
-    )}`;
-    console.log(jsonString)
-    navigator.clipboard.writeText(JSON.stringify(raidableBasesLootTable));
-    alert('Loot table copied to clipboard! Paste into your config file or wherever you need it :)');
+    if(raidableBasesLootTable.length === 0) {
+      alert('Loot table is empty!');
+      return;
+    } else {
+      const jsonString = `data:text/json;chatset=utf-8,${encodeURIComponent(
+        JSON.stringify(raidableBasesLootTable)
+      )}`;
+      console.log(jsonString)
+      navigator.clipboard.writeText(JSON.stringify(raidableBasesLootTable));
+      alert('Loot table copied to clipboard! Paste into your config file or wherever you need it :)');
+    }
+  }
+
+  const handlefileUpload = (e) => {
+    const file = e.target.files[0];
+    const reader = new FileReader();
+    reader.onerror = function(error) {
+    console.error('Error reading file:', error);
+    };
+    reader.readAsText(e.target.files[0], "UTF-8");
+    const lootTable = reader.onload = (evt) => {
+      const jsonObj = JSON.parse(evt.target.result);
+      setRaidableBasesLootTable(jsonObj);
+    }
+
+    document.getElementById('tableupload').value = '';
+    
   }
 
   return (
@@ -47,8 +68,10 @@ function App() {
       <div className="App-header">
         <h1>Raidable Bases Loot Config</h1>
         <div>
-          <button onClick={() => exportLootTable()}>Export Table</button>
           <button onClick={() => setRaidableBasesLootTable([])}>Reset Loot Table</button>
+          <button onClick={() => exportLootTable()}>Export Table</button>
+          <input type="file" placeholder='Upload Loot Table' id='tableupload' onChange={(e) => handlefileUpload(e)} accept='.json'/>
+
         </div>
       </div>  
 

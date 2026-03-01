@@ -26,6 +26,11 @@ body {
   font-weight: 600;
 }
 
+.App-header div{
+  display: flex;
+  gap: 12px;
+}
+
 .App-body {
   display: flex;
   flex-wrap: wrap;
