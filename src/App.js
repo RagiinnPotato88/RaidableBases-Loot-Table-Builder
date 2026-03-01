@@ -8,8 +8,10 @@ import RaidableBasesLootItemCard from './RaidableBasesLootItemCard';
 function App() {
 
   const [rustLootList, setRustLootList] = useState(data);
-  const [raidableBasesLootTable, setRaidableBasesLootTable] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
+  
+  /* eslint-disable-next-line no-unused-vars */
+  const [raidableBasesLootTable, setRaidableBasesLootTable] = useState([]);
   
   const addItemToLootTable = (item) => {
     console.log(item)
