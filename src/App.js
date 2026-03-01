@@ -47,13 +47,12 @@ function App() {
   }
 
   const handlefileUpload = (e) => {
-    const file = e.target.files[0];
     const reader = new FileReader();
     reader.onerror = function(error) {
     console.error('Error reading file:', error);
     };
     reader.readAsText(e.target.files[0], "UTF-8");
-    const lootTable = reader.onload = (evt) => {
+    reader.onload = (evt) => {
       const jsonObj = JSON.parse(evt.target.result);
       setRaidableBasesLootTable(jsonObj);
     }
